@@ -22,7 +22,7 @@ CREATE TABLE players (
 
 CREATE TABLE teams (
     id INT AUTO_INCREMENT,
-    location VARCHAR(255),
+    teamLocation VARCHAR(255),
     mascot VARCHAR(255),
     abbreviation VARCHAR(3),
     league ENUM('AL', 'NL'),
